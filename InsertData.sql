@@ -11,22 +11,22 @@ INSERT INTO Bookings (BookingID, BookingDate, TableNumber) VALUES
 (4, '2025-03-04', 4);
 
 INSERT INTO OrderDeliveryStatus (DeliveryDate, DeliveryStatus) VALUES
-('2025-03-01', 'Delivered'),
-('2025-03-02', 'Pending'),
-('2025-03-03', 'Delivered'),
-('2025-03-04', 'In Progress');
+(1, '2025-03-01', 'Delivered'),
+(2, '2025-03-02', 'Pending'),
+(3, '2025-03-03', 'Delivered'),
+(4, '2025-03-04', 'In Progress');
 
 INSERT INTO Orders (OrderDate, Quantity, TotalCost, CustomerID, StatusID) VALUES
-('2025-03-01', 3, 100.50, 1, 1),
-('2025-03-02', 2, 95.00, 2, 2),
-('2025-03-03', 5, 350.00, 3, 3),
-('2025-03-04', 1, 50.00, 4, 4);
+(1, '2025-03-01', 3, 100.50, 1, 1),
+(2, '2025-03-02', 2, 95.00, 2, 2),
+(3, '2025-03-03', 5, 350.00, 3, 3),
+(4, '2025-03-04', 1, 50.00, 4, 4);
 
 INSERT INTO StaffInformation (Role, Salary) VALUES
-('Waiter', '30000'),
-('Chef', '50000'),
-('Manager', '70000'),
-('Waiter', '35000');
+(1, 'Waiter', '30000'),
+(2, 'Chef', '50000'),
+(3, 'Manager', '70000'),
+(4, 'Waiter', '35000');
 
 INSERT INTO Menu (MenuID, Starters, Cuisines, Courses, Drinks, Desserts, OrderID, BookingID, StaffID) VALUES
 (1, 'Salad', 'Italian', 'Spaghetti', 'Sparkling Water', 'Tiramisu', 1, 1, 2),
