@@ -1,5 +1,5 @@
 # Sprint 1 Report
-Video Link:
+Video Link: https://youtu.be/ThCXrCW_Wd0
 
 ## What's New
 * Adding Sales Report
@@ -30,16 +30,12 @@ Please review the following code files, which were actively developed during thi
 
 ## Retrospective Summary
 Here's what went well:
-* Item 1
-* Item 2
-* Item x
+* Completed Module 2 of the Course Era Project
+* Completed initial steps of creating the database, tables, and inserting the necessary values
+* Tracked all github issues using our Kanban Board
 
 Here's what we'd like to improve:
-* Item 1
-* Item 2
-* Item x
+* Find a way to query more efficiently
 
 Here are changes we plan to implement in the next sprint:
-* Item 1
-* Item 2
-* Item x
+* Module 3 of Coursera (Data visualization & Database Client)
