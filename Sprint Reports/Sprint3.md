@@ -1,5 +1,5 @@
 # Sprint 3 Report
-Video Link: 
+Video Link: https://youtu.be/EBvEVgI1t2c
 
 ## What's New
 * Data Visualization Using Tableau
